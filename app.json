@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "meditation",
+    "slug": "meditation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/meditar.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/simpleMeditationLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/meditar.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aliberth.meditation"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1e6fac52-1d31-42f7-8f49-033172604bdc"
+      }
+    }
+  }
+}
